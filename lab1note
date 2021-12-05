@@ -1,0 +1,11 @@
+1.firefox set proxy ip and port#
+preferences->search for proxy - > 
+* try different port # ,port might be taken by last trial.
+2. burp-> proxy->options->proxy listeners: set the ip and same port# 
+as in firefox
+3. burp ->proxy->intercept ->intercept is on
+4. firefox click one link
+5. burp -> proxy -> intercept ->forward (change the forward address and port)
+use spider :
+repeat the upper steps 1-5
+burp ->target -> right click on the ip address. ->spider the host. 
